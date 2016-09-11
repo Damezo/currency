@@ -3,7 +3,7 @@ fdescribe('Users factory', function() {
   var userList = [
     {
       id: 2,
-      name: 'Jane'
+      name: 'Damian'
     }
   ];
 
@@ -25,7 +25,7 @@ fdescribe('Users factory', function() {
     });
 
     it('should return a hard-coded list of users', function() {
-      expect(Users.getNames()[0].name).toEqual('Jane');
+      expect(Users.getNames()[0].name).toEqual('Damian');
     });
   });
 
@@ -36,8 +36,8 @@ fdescribe('Users factory', function() {
 
     it('should add a name', function() {
 
-      Users.setName('Mike');
-      expect(Users.getNames()[1].name).toEqual('Mike');
+      Users.setName('Renell');
+      expect(Users.getNames()[1].name).toEqual('Renell');
     });
   });
 });
